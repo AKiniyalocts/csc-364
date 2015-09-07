@@ -1,0 +1,79 @@
+CSC 364
+Anthony Kiniyalocts
+9/7/2015
+Program 1: Doubly-Ended-Queue
+
+Stuff that doesnt work:
+- If the test file has a double digit number it will only read the first of those numbers
+
+Program Output:
+
+#### 1.
+
+Enter the path to your file:
+test/inf1.txt
+-----Front----
+4
+1
+2
+3
+-----Rear-----
+-----Front----
+6
+4
+1
+2
+3
+-----Rear-----
+
+#### 2.
+
+Enter the path to your file:
+test/inf2.txt
+-----Front----
+4
+3
+-----Rear-----
+
+#### 3.
+
+Enter the path to your file:
+test/inf3.txt
+EMPTY DEQUE
+-----Front----
+6
+5
+4
+7
+-----Rear-----
+-----Front----
+6
+5
+4
+-----Rear-----
+-----Front----
+5
+4
+-----Rear-----
+
+#### 4.
+
+Enter the path to your file:
+test/inf4.txt
+-----Front----
+4
+3
+2
+1
+-----Rear-----
+
+#### 5.
+
+Enter the path to your file:
+test/inf5.txt
+-----Front----
+1
+2
+3
+4
+-----Rear-----
