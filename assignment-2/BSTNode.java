@@ -1,3 +1,9 @@
+/**
+ * Class: BSTNode
+ *
+ * Node for BST class.
+ * Handles adding and recursive in order traversal for BST.
+ */
 public class BSTNode{
 
   protected int val;
@@ -45,6 +51,19 @@ public class BSTNode{
 
     }
 
+  }
+
+  public void inOrder(){
+
+    if(getLeft() != null){
+      getLeft().inOrder();
+    }
+
+    System.out.println(getVal() + "");
+
+    if(getRight() != null){
+      getRight().inOrder();
+    }
   }
 
 

@@ -1,8 +1,17 @@
 import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
+
+/**
+ * Class: BST
+ * Binary source tree
+ */
 
 public class BST{
 
   private BSTNode root;
+
+  private int level;
+
 
   public BST(){
     this.root = null;
@@ -21,27 +30,51 @@ public class BST{
   }
 
   public void levelOrder(){
-    Queue<BSTNode> queue = new Queue<BSTNode>();
+    Queue<BSTNode> queue = new ConcurrentLinkedQueue<>();
+
     queue.add(root);
 
       while(!queue.isEmpty()){
 
         BSTNode tempNode = queue.poll();
 
-        System.out.printf("%d ",tempNode.getVal() + "");
+        level = tempNode.level;
 
-        if(tempNode.getLeft()!=null)
+
+        if(tempNode.getLeft()!= null) {
+          tempNode.level = root.level + 1;
+
           queue.add(tempNode.getLeft());
+        }
 
-        if(tempNode.getRight()!=null)
+        if(tempNode.getRight()!= null) {
+          tempNode.level = root.level + 1;
+
           queue.add(tempNode.getRight());
+        }
+
+
+
+        if(level == tempNode.level) {
+          System.out.print(tempNode.getVal() + "  ");
+        }
+        else {
+          System.out.print(tempNode.getVal() + "  ");
+          System.out.println();
+
+        }
+
 
       }
 
   }
 
   public void inOrder(){
+    if (root == null ){
+      System.out.println("Empty BST");
+    }
 
+    root.inOrder();
   }
 
   public boolean isEmpty(){
