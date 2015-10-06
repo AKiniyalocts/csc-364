@@ -66,6 +66,18 @@ public class BSTNode{
     }
   }
 
+  public void reverseOrder(){
+    if(getRight() != null){
+      getRight().reverseOrder();
+    }
+
+    System.out.println(getVal() + "");
+    
+    if(getLeft() != null){
+      getLeft().reverseOrder();
+    }
+  }
+
 
   public void setVal(int val){
     this.val = val;

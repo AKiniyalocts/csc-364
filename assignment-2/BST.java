@@ -77,6 +77,14 @@ public class BST{
     root.inOrder();
   }
 
+  public void reverseOrder(){
+    if(root == null){
+      System.out.println("Empty BST");
+    }
+
+    root.reverseOrder();
+  }
+
   public boolean isEmpty(){
     return this.root == null;
   }

@@ -1,0 +1,41 @@
+CSC 364
+Anthony Kiniyalocts
+10/06/2015
+Program 3: Heap
+
+Stuff that doesnt work:
+-
+
+Program Output:
+
+INSERT
+Enter the path to your file:
+test.txt
+6
+8
+10
+24
+16
+18
+28
+50
+38
+20
+26
+22
+
+Remove Min
+
+Min: 6
+8
+16
+10
+24
+20
+18
+28
+50
+38
+22
+26
+22

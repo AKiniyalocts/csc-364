@@ -60,6 +60,9 @@ public class BSTMain {
 
         System.out.println("\nIN ORDER TRAVERSAL\n");
         bst.inOrder();
+
+        System.out.println("\nREVERSE ORDER TRAVERSAL\n");
+        bst.reverseOrder();
      }
 
 
