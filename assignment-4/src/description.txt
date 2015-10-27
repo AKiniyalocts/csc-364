@@ -1,0 +1,24 @@
+CSC 364
+Anthony Kiniyalocts
+10/27/2015
+Program 4: Hashes
+
+Stuff that doesnt work:
+-
+
+Program Output:
+
+
+Enter the path to your first file:
+io-1.txt
+Enter the path to your second file:
+io-2.txt
+
+out.txt:
+
+common
+file
+find
+second
+this
+words
