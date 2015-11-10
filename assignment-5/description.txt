@@ -1,0 +1,18 @@
+CSC 364
+Anthony Kiniyalocts
+10/27/2015
+Program 5: Graphs
+
+Program Output:
+
+
+$ java MCSTDriver
+
+0 --- 6 == 9
+6 --- 2 == 5
+2 --- 3 == 7
+3 --- 4 == 11
+4 --- 5 == 6
+4 --- 1 == 8
+
+Total cost: 46
